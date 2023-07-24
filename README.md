@@ -1,13 +1,9 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# DealWithSign.com
 
-## Getting Started
+DealWithSign.com is a personal portfolio website showcasing my projects built with Next.js and Tailwind CSS. It serves as a platform to exhibit my web development skills, showcase my projects, and provide information about myself as a developer.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+## Technologies Used
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Next.js
+- Tailwind CSS
+
