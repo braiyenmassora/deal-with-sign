@@ -8,7 +8,7 @@ const Footer = () => {
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-10 h-10 text-white p-2 bg-white rounded-full" viewBox="0 0 24 24">
                         <path d=""></path>
                     </svg>
-                    <span className="ml-3 text-base">Braiyen Massora © 2023</span>
+                    <span className="ml-3 text-base text-base font-normal text-white">itsmebraiyen</span>
                     
                 </a>
                 <p className="text-sm text-white-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4"> 
