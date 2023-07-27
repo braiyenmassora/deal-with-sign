@@ -1,55 +1,24 @@
 import React from 'react';
+import Image from 'next/image';
 
 const Hero = () => {
   return (
-    <div>
-      {/* Hero Section */}
-      <section className="text-white body-font flex items-center h-screen" style={{ marginLeft: '170px' }}>
-        <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-start">
-          <div className="md:w-1/2 md:pr-16">
-            <h1 className="text-5xl font-bold text-white mb-10">
-              Data Engineer & Flutter Developer.
-            </h1>
-            <p className="text-base font-normal text-white">
-              Hi, itsmebraiyen, a passionate Data Engineer.
-              <br />
-              and Mobile Developer based in Indonesia.
-            </p>
-          </div>
+    <section id='home' className='pt-36'>
+      <div className='container flex flex-wrap'>
+        <div className='w-full lg:w-1/2 self-center px-4 text-white'>
+          <h1 className='text-3xl font-semibold text-primary'>I’m Braiyen Massora. </h1>
+          <h2 className='text-lg font-semibold text-primary mb-5'>Data Engineer dan Fluter Developer</h2>
+          <p className='text-second text-sm text-medium mb-5 leading-relaxed'> Have experience working in Data Engineering and Technical Documentation to describe the functionalities and features of products in the software product development and engineering industry. Additionally, I am actively involved in my own projects on GitHub.</p>
+          <a href='braiyenmassora@gmail.com' className='text-sm text-primary underline'>Get in touch → </a>
         </div>
-      </section>
-
-      {/* Crafted with Love Section */}
-      <section className="text-white body-font overflow-hidden" style={{ marginLeft: '170px', marginRight: '170px' }}>
-        <div className="container px-5 py-24 mx-auto">
-          <div className="text-left mb-12">
-            <h1 className="text-5xl font-bold text-white title-font">Crafted with love.</h1>
+        {/* image */}
+        {/* <div className='w-full lg:w-1/2 self-end px-4'>
+          <div className="mt-10">
+            <Image src="/image.png" width={300} height={300} alt='itsmebraiyen' className='max-w-full mx-auto' />
           </div>
-
-          <div className="-my-8 divide-y-2 divide-gray-100">
-            <div className="py-8 flex flex-wrap md:flex-nowrap">
-              <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
-                <span className="text-base font-normal text-white">streamlit-resume-blog</span>
-              </div>
-              <div className="md:flex-grow">
-                <h2 className="text-base font-normal text-white">Streamlit project that allows you to create a resume blog using Streamlit</h2>
-                <p className="leading-relaxed">This is a Streamlit project that allows you to create a resume blog using Streamlit, a popular Python library for building interactive web applications.</p>
-                <a href="#" className="inline-flex items-center mt-4 text-base font-normal text-white underline">Learn More
-                  <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round">
-                    <path d="M5 12h14"></path>
-                    <path d="M12 5l7 7-7 7"></path>
-                  </svg>
-                </a>
-              </div>
-            </div>
-          </div>
-          {/* Add more content to the section if needed */}
-        </div>
-      </section>
-
-
-
-    </div>
+        </div> */}
+      </div>
+    </section>
   );
 };
 

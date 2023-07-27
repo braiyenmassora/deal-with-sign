@@ -3,9 +3,8 @@
 @tailwind utilities;
 
 
-@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300&family=Inconsolata:wght@700&family=Roboto:wght@100&family=VT323&family=Work+Sans:wght@300&display=swap');
 
-@font-face {
-  font-family: "AUTHENTICSans" ;
-  src: url("../fonts/AUTHENTICSans.otf");
+html {
+  font-family: 'Work Sans', sans-serif; /* Replace 'Work Sans' with the name of the font you want to use as default */
 }
