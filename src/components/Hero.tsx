@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <section id='home' className='pt-36'>
       <div className='container flex flex-wrap'>
-        <div className='w-full lg:w-1/2 self-center px-4 text-white'>
+        <div className='w-full lg:w-1/2 self-center px-4 text-white '>
           <h1 className='text-3xl font-semibold text-primary'>I’m Braiyen Massora. </h1>
           <h2 className='text-lg font-semibold text-primary mb-5'>Data Engineer dan Fluter Developer</h2>
           <p className='text-second text-sm text-medium mb-5 leading-relaxed'> Have experience working in Data Engineering and Technical Documentation to describe the functionalities and features of products in the software product development and engineering industry. Additionally, I am actively involved in my own projects on GitHub.</p>

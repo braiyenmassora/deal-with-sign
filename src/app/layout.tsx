@@ -1,10 +1,8 @@
 import "../styles/globals.css";
 import type { Metadata } from 'next';
-import { Inter } from 'next/font/google';
 import NavBar from "@/components/NavBar";
 import Footer from "@/components/Footer";
 
-const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
   title: 'dealwithsign.com',
@@ -17,7 +15,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`bg-white ${inter.className}`}>
+      <body>
         <NavBar />
         {children}
         <Footer />

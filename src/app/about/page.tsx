@@ -7,7 +7,7 @@ const About = () => {
                 <div className='flex-wrap'>
                     <div className='w-full px-4 mb-5'>
                         <h4 className='text-3xl font-semibold text-primary'>
-                            Work Experiences.</h4>
+                            About me.</h4>
                     </div>
                     <div className='job-info w-full px-4 bg-white rounded-lg p-4 '>
                         <h3 className='text-lg font-semibold text-primary'>Data Engineer</h3>
